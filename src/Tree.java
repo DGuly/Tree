@@ -90,6 +90,7 @@ public class Tree {
 
     public Node min(Node a, Node b) {
         System.out.println("Some string for conflict");
+        System.out.println("asdf");
         if (a.value < b.value) return a;
         if (a.value > b.value) return b;
         return a;
